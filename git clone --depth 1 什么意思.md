@@ -14,3 +14,5 @@ $ git remote set-branches origin 'remote_branch_name'
 $ git fetch --depth 1 origin remote_branch_name
 $ git checkout remote_branch_name
 ```
+
+[git 教程参考](https://www.git-scm.com/docs/git-clone#Documentation/git-clone.txt---depthltdepthgt)
