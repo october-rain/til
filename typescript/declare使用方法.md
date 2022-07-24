@@ -23,6 +23,8 @@ const obj: {
 
 我们完全可以只在类型空间中（你可以理解为用于存放 `TypeScript` 类型信息的内存空间）比较这些类型，只需要使用 `declare` 关键字：
 
+#### 方法一
+
 使用 `declare` 的时候：不需要给 `obj` 显式的声明值，直接可以进行类型的判断。如下所示：
 
 ```ts
@@ -36,6 +38,24 @@ declare const obj: {
 
 console.log(obj.a?.b?.[0].name)
 ```
+
+#### 方法二
+
+```ts
+interface Res {
+  code: 10000 | 10001 | 50000;
+  status: "success" | "failure";
+  data: any;
+}
+
+declare var res: Res;
+
+console.log(res.code)
+```
+
+此时 `res` 已经能读取到 `code`。
+
+对于 `declare var res: Res` 的理解，你可以认为它其实就是快速生成一个符合指定类型，但没有实际值的变量，同时它也不存在于运行时中。上面引入了一些新的概念，我们来一个一个了解。
 
 ## 其他用法（在 .d.ts 文件中使用）
 
