@@ -2,5 +2,6 @@
   "defaultViewMode": "preview",
   "legacyEditor": false,
   "attachmentFolderPath": "./assets",
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current"
 }
