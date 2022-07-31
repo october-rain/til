@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab48b31f8b7f30d0",
+        "id": "8b7cda88a0856919",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "react/受控组件和非受控组件.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/受控组件和非受控组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,16 +112,33 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "307ed53240e6b158",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b66036b1ef48ecb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "ab48b31f8b7f30d0",
+  "active": "307ed53240e6b158",
   "lastOpenFiles": [
+    "2022-07-31.md",
     "react/受控组件和非受控组件.md",
     "react/forwarRef和useImperativeHandle.md",
     "react/useEffect和useLayoutEffect.md",
