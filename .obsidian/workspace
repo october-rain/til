@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "7b2e327b32198276",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab48b31f8b7f30d0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "react/受控组件和非受控组件.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae3c1e6142143306",
+    "type": "split",
+    "children": [
+      {
+        "id": "e10a57a6b81b2751",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72294381e66ac8ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3efe2a7bc158b384",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a28a79b1490c7ac4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d85b0cdb5c0ba142",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1d64f3f73803ea0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9aab3ece209a68e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react/受控组件和非受控组件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb0f3c802ee78403",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2745887bcf73f4b6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fa5390b9b91fb2b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ab48b31f8b7f30d0",
+  "lastOpenFiles": [
+    "react/受控组件和非受控组件.md",
+    "react/forwarRef和useImperativeHandle.md",
+    "react/useEffect和useLayoutEffect.md",
+    "others/什么是正向、反向代理.md"
+  ]
+}
