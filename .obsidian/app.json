@@ -1,5 +1,6 @@
 {
   "defaultViewMode": "preview",
   "legacyEditor": false,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "promptDelete": false
 }
