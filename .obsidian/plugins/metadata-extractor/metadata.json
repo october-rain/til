@@ -1,0 +1,581 @@
+[
+  {
+    "fileName": "canvas模糊问题",
+    "relativePath": "visualization/canvas模糊问题.md",
+    "tags": [
+      "tag"
+    ],
+    "headings": [
+      {
+        "heading": "原因",
+        "level": 2
+      },
+      {
+        "heading": "查看当前设备 dpr",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "索引类型",
+    "relativePath": "typescript/索引类型.md",
+    "headings": [
+      {
+        "heading": "索引类型",
+        "level": 1
+      },
+      {
+        "heading": "索引签名类型（在属性的位置写）",
+        "level": 2
+      },
+      {
+        "heading": "索引类型查询（使用 keyof）",
+        "level": 2
+      },
+      {
+        "heading": "索引类型访问（在值的位置写）",
+        "level": 2
+      },
+      {
+        "heading": "参考",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "可选链",
+    "relativePath": "typescript/可选链.md",
+    "headings": [
+      {
+        "heading": "可选链在 typescript 中的使用",
+        "level": 1
+      },
+      {
+        "heading": "example1",
+        "level": 2
+      },
+      {
+        "heading": "example2",
+        "level": 2
+      },
+      {
+        "heading": "总结",
+        "level": 2
+      },
+      {
+        "heading": "参考",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "ts两种层级比较方式",
+    "relativePath": "typescript/ts两种层级比较方式.md",
+    "headings": [
+      {
+        "heading": "ts 两种层级比较方式————类型信息的层面、结构化类型系统层面",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "ts 范型",
+    "relativePath": "typescript/ts 范型.md",
+    "headings": [
+      {
+        "heading": "ts 泛型",
+        "level": 1
+      },
+      {
+        "heading": "类型别名中的泛型",
+        "level": 2
+      },
+      {
+        "heading": "对象中的泛型",
+        "level": 2
+      },
+      {
+        "heading": "函数中的泛型",
+        "level": 2
+      },
+      {
+        "heading": "类中的泛型",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "ts 如何挂载新值？",
+    "relativePath": "typescript/ts 如何挂载新值？.md",
+    "headings": [
+      {
+        "heading": "如果在函数上挂载一个值不报错？",
+        "level": 2
+      },
+      {
+        "heading": "如何在函数组件上挂载一个值不报错？",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "infer",
+    "relativePath": "typescript/infer.md",
+    "headings": [
+      {
+        "heading": "ts 中 infer 的使用技巧",
+        "level": 1
+      },
+      {
+        "heading": "含义",
+        "level": 2
+      },
+      {
+        "heading": "examples",
+        "level": 2
+      },
+      {
+        "heading": "推断函数的返回值",
+        "level": 3
+      },
+      {
+        "heading": "Swap",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "declare使用方法",
+    "relativePath": "typescript/declare使用方法.md",
+    "headings": [
+      {
+        "heading": "declare 的使用方法",
+        "level": 1
+      },
+      {
+        "heading": "进行类型判断",
+        "level": 2
+      },
+      {
+        "heading": "正常的方法",
+        "level": 3
+      },
+      {
+        "heading": "使用 declare",
+        "level": 3
+      },
+      {
+        "heading": "方法一",
+        "level": 4
+      },
+      {
+        "heading": "方法二",
+        "level": 4
+      },
+      {
+        "heading": "其他用法（在 .d.ts 文件中使用）",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "fig",
+    "relativePath": "tools/fig.md"
+  },
+  {
+    "fileName": "受控组件和非受控组件",
+    "relativePath": "react/受控组件和非受控组件.md",
+    "headings": [
+      {
+        "heading": "定义和区别",
+        "level": 2
+      },
+      {
+        "heading": "非受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "❗️特别注意：",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "useEffect和useLayoutEffect",
+    "relativePath": "react/useEffect和useLayoutEffect.md"
+  },
+  {
+    "fileName": "forwarRef和useImperativeHandle",
+    "relativePath": "react/forwarRef和useImperativeHandle.md",
+    "headings": [
+      {
+        "heading": "作用",
+        "level": 2
+      },
+      {
+        "heading": "forwardRef",
+        "level": 3
+      },
+      {
+        "heading": "useImperativeHandle",
+        "level": 3
+      },
+      {
+        "heading": "示例",
+        "level": 2
+      },
+      {
+        "heading": "官方示例",
+        "level": 3
+      },
+      {
+        "heading": "MiniForm",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "什么是正向、反向代理",
+    "relativePath": "others/什么是正向、反向代理.md",
+    "headings": [
+      {
+        "heading": "正向代理：",
+        "level": 2
+      },
+      {
+        "heading": "反向代理",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "什么是Nerd fonts",
+    "relativePath": "others/什么是Nerd fonts.md"
+  },
+  {
+    "fileName": "文件权限",
+    "relativePath": "linux/文件权限.md",
+    "headings": [
+      {
+        "heading": "文件权限",
+        "level": 1
+      },
+      {
+        "heading": "含义详解",
+        "level": 2
+      },
+      {
+        "heading": "参考",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "如何添加软连接",
+    "relativePath": "linux/如何添加软连接.md",
+    "headings": [
+      {
+        "heading": "如何添加软连接",
+        "level": 1
+      },
+      {
+        "heading": "macos 下",
+        "level": 2
+      },
+      {
+        "heading": "linux 下",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "命令行替换工具",
+    "relativePath": "linux/命令行替换工具.md"
+  },
+  {
+    "fileName": "curry和compose",
+    "relativePath": "javascript/curry和compose.md",
+    "headings": [
+      {
+        "heading": "compose",
+        "level": 2
+      },
+      {
+        "heading": "curry",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "git clone --depth 1 什么意思",
+    "relativePath": "git/git clone --depth 1 什么意思.md"
+  },
+  {
+    "fileName": "构建知识体系",
+    "relativePath": "efficiency/构建知识体系.md",
+    "headings": [
+      {
+        "heading": "构建知识体系",
+        "level": 1
+      },
+      {
+        "heading": "Obsidian + Git 同步知识体系",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "通用协作规范",
+    "relativePath": "dev-norm/通用协作规范.md",
+    "headings": [
+      {
+        "heading": "参考",
+        "level": 1
+      },
+      {
+        "heading": "1、工作流规范（基于Git）",
+        "level": 1
+      },
+      {
+        "heading": "1.1、开发",
+        "level": 2
+      },
+      {
+        "heading": "1.1.1、[版本规范](https://semver.org/lang/zh-CN/)",
+        "level": 3
+      },
+      {
+        "heading": "1.1.2、Git分支模型",
+        "level": 3
+      },
+      {
+        "heading": "master分支",
+        "level": 4
+      },
+      {
+        "heading": "dev分支",
+        "level": 4
+      },
+      {
+        "heading": "feature分支",
+        "level": 4
+      },
+      {
+        "heading": "preview分支",
+        "level": 4
+      },
+      {
+        "heading": "release分支",
+        "level": 4
+      },
+      {
+        "heading": "1.1.3、提交信息规范",
+        "level": 3
+      },
+      {
+        "heading": "格式",
+        "level": 4
+      },
+      {
+        "heading": "header",
+        "level": 5
+      },
+      {
+        "heading": "body",
+        "level": 5
+      },
+      {
+        "heading": "footer",
+        "level": 5
+      },
+      {
+        "heading": "模板参考",
+        "level": 4
+      },
+      {
+        "heading": "1.1.4、BUG处理规则",
+        "level": 3
+      },
+      {
+        "heading": "1.1.5、处理定制化需求",
+        "level": 3
+      },
+      {
+        "heading": "1.2、发布工作流",
+        "level": 2
+      },
+      {
+        "heading": "1.3、持续集成",
+        "level": 2
+      },
+      {
+        "heading": "1.4、扩展",
+        "level": 2
+      },
+      {
+        "heading": "2、编码规范",
+        "level": 1
+      },
+      {
+        "heading": "2.1、代码格式化",
+        "level": 2
+      },
+      {
+        "heading": "2.2、Code Review",
+        "level": 2
+      },
+      {
+        "heading": "Architecture/Design",
+        "level": 4
+      },
+      {
+        "heading": "Style",
+        "level": 4
+      },
+      {
+        "heading": "Review Your Own Code First",
+        "level": 4
+      },
+      {
+        "heading": "如何进行Code Review",
+        "level": 4
+      },
+      {
+        "heading": "Code Review的意识",
+        "level": 4
+      },
+      {
+        "heading": "3、文档规范",
+        "level": 1
+      },
+      {
+        "heading": "3.1、文档中心",
+        "level": 2
+      },
+      {
+        "heading": "3.2、代码即文档",
+        "level": 2
+      },
+      {
+        "heading": "3.3、注释即文档",
+        "level": 2
+      },
+      {
+        "heading": "4、UI规范",
+        "level": 1
+      },
+      {
+        "heading": "5、测试规范",
+        "level": 1
+      },
+      {
+        "heading": "单元测试",
+        "level": 2
+      },
+      {
+        "heading": "6、异常处理、监控",
+        "level": 1
+      },
+      {
+        "heading": "6.1、异常处理",
+        "level": 2
+      },
+      {
+        "heading": "6.2、日志",
+        "level": 2
+      },
+      {
+        "heading": "6.2、异常监控",
+        "level": 2
+      },
+      {
+        "heading": "7、前后端协作规范",
+        "level": 1
+      },
+      {
+        "heading": "7.1、协作流程",
+        "level": 2
+      },
+      {
+        "heading": "7.2、接口规范",
+        "level": 2
+      },
+      {
+        "heading": "7.3、接口文档规范",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "静态站点部署方式介绍",
+    "relativePath": "deploy/静态站点部署方式介绍.md",
+    "headings": [
+      {
+        "heading": "vercel、github 类部署",
+        "level": 2
+      },
+      {
+        "heading": "oss 部署",
+        "level": 2
+      },
+      {
+        "heading": "个人服务器部署",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "一些属性的默认值",
+    "relativePath": "css/一些属性的默认值.md",
+    "headings": [
+      {
+        "heading": "一些属性的默认值",
+        "level": 1
+      },
+      {
+        "heading": "使用原因",
+        "level": 2
+      },
+      {
+        "heading": "常见属性默认值",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "window.open踩坑",
+    "relativePath": "browser/window.open踩坑.md",
+    "headings": [
+      {
+        "heading": "window.open 踩坑",
+        "level": 1
+      },
+      {
+        "heading": "使用方法",
+        "level": 2
+      },
+      {
+        "heading": "问题",
+        "level": 2
+      },
+      {
+        "heading": "参考",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "README",
+    "relativePath": "README.md",
+    "headings": [
+      {
+        "heading": "til",
+        "level": 1
+      }
+    ]
+  }
+]

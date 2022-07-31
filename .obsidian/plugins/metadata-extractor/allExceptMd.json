@@ -1,0 +1,76 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "browser",
+      "relativePath": "browser"
+    },
+    {
+      "name": "css",
+      "relativePath": "css"
+    },
+    {
+      "name": "deploy",
+      "relativePath": "deploy"
+    },
+    {
+      "name": "dev-norm",
+      "relativePath": "dev-norm"
+    },
+    {
+      "name": "efficiency",
+      "relativePath": "efficiency"
+    },
+    {
+      "name": "git",
+      "relativePath": "git"
+    },
+    {
+      "name": "javascript",
+      "relativePath": "javascript"
+    },
+    {
+      "name": "linux",
+      "relativePath": "linux"
+    },
+    {
+      "name": "others",
+      "relativePath": "others"
+    },
+    {
+      "name": "react",
+      "relativePath": "react"
+    },
+    {
+      "name": "tools",
+      "relativePath": "tools"
+    },
+    {
+      "name": "typescript",
+      "relativePath": "typescript"
+    },
+    {
+      "name": "visualization",
+      "relativePath": "visualization"
+    },
+    {
+      "name": "assets",
+      "relativePath": "others/assets"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "LICENSE",
+      "basename": "LICENSE",
+      "relativePath": "LICENSE"
+    },
+    {
+      "name": "Pasted image 20220731153436.png",
+      "basename": "Pasted image 20220731153436",
+      "relativePath": "others/assets/Pasted image 20220731153436.png"
+    }
+  ]
+}
