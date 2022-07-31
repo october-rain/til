@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b7cda88a0856919",
+        "id": "0ffad461b7b09b37",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "others/什么是正向、反向代理.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#article",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "others/什么是正向、反向代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "others/什么是正向、反向代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "others/什么是正向、反向代理.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,19 +130,20 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8b7cda88a0856919",
+  "active": "0ffad461b7b09b37",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20220731.md",
+    "others/什么是正向、反向代理.md",
     "assets/reverse-proxy.jpg",
     "2022-07-31.md",
     "react/受控组件和非受控组件.md",
     "react/forwarRef和useImperativeHandle.md",
-    "react/useEffect和useLayoutEffect.md",
-    "others/什么是正向、反向代理.md"
+    "react/useEffect和useLayoutEffect.md"
   ]
 }
