@@ -29,10 +29,6 @@
       "relativePath": "git"
     },
     {
-      "name": "javascript",
-      "relativePath": "javascript"
-    },
-    {
       "name": "linux",
       "relativePath": "linux"
     },
@@ -55,6 +51,10 @@
     {
       "name": "visualization",
       "relativePath": "visualization"
+    },
+    {
+      "name": "javascript",
+      "relativePath": "javascript"
     },
     {
       "name": "assets",
