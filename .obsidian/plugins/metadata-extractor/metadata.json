@@ -1,29 +1,5 @@
 [
   {
-    "fileName": "README",
-    "relativePath": "README.md",
-    "headings": [
-      {
-        "heading": "til",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "curry和compose",
-    "relativePath": "javascript/curry和compose.md",
-    "headings": [
-      {
-        "heading": "compose",
-        "level": 2
-      },
-      {
-        "heading": "curry",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "canvas模糊问题",
     "relativePath": "visualization/canvas模糊问题.md",
     "headings": [
@@ -38,38 +14,28 @@
     ]
   },
   {
-    "fileName": "ts两种层级比较方式",
-    "relativePath": "typescript/ts两种层级比较方式.md",
+    "fileName": "索引类型",
+    "relativePath": "typescript/索引类型.md",
     "headings": [
       {
-        "heading": "ts 两种层级比较方式————类型信息的层面、结构化类型系统层面",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "infer",
-    "relativePath": "typescript/infer.md",
-    "headings": [
-      {
-        "heading": "ts 中 infer 的使用技巧",
+        "heading": "索引类型",
         "level": 1
       },
       {
-        "heading": "含义",
+        "heading": "索引签名类型（在属性的位置写）",
         "level": 2
       },
       {
-        "heading": "examples",
+        "heading": "索引类型查询（使用 keyof）",
         "level": 2
       },
       {
-        "heading": "推断函数的返回值",
-        "level": 3
+        "heading": "索引类型访问（在值的位置写）",
+        "level": 2
       },
       {
-        "heading": "Swap",
-        "level": 3
+        "heading": "参考",
+        "level": 2
       }
     ]
   },
@@ -100,28 +66,12 @@
     ]
   },
   {
-    "fileName": "索引类型",
-    "relativePath": "typescript/索引类型.md",
+    "fileName": "ts两种层级比较方式",
+    "relativePath": "typescript/ts两种层级比较方式.md",
     "headings": [
       {
-        "heading": "索引类型",
+        "heading": "ts 两种层级比较方式————类型信息的层面、结构化类型系统层面",
         "level": 1
-      },
-      {
-        "heading": "索引签名类型（在属性的位置写）",
-        "level": 2
-      },
-      {
-        "heading": "索引类型查询（使用 keyof）",
-        "level": 2
-      },
-      {
-        "heading": "索引类型访问（在值的位置写）",
-        "level": 2
-      },
-      {
-        "heading": "参考",
-        "level": 2
       }
     ]
   },
@@ -166,6 +116,32 @@
     ]
   },
   {
+    "fileName": "infer",
+    "relativePath": "typescript/infer.md",
+    "headings": [
+      {
+        "heading": "ts 中 infer 的使用技巧",
+        "level": 1
+      },
+      {
+        "heading": "含义",
+        "level": 2
+      },
+      {
+        "heading": "examples",
+        "level": 2
+      },
+      {
+        "heading": "推断函数的返回值",
+        "level": 3
+      },
+      {
+        "heading": "Swap",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "declare使用方法",
     "relativePath": "typescript/declare使用方法.md",
     "headings": [
@@ -204,6 +180,32 @@
     "relativePath": "tools/fig.md"
   },
   {
+    "fileName": "受控组件和非受控组件",
+    "relativePath": "react/受控组件和非受控组件.md",
+    "headings": [
+      {
+        "heading": "定义和区别",
+        "level": 2
+      },
+      {
+        "heading": "非受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "❗️特别注意：",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "useEffect和useLayoutEffect",
+    "relativePath": "react/useEffect和useLayoutEffect.md"
+  },
+  {
     "fileName": "forwarRef和useImperativeHandle",
     "relativePath": "react/forwarRef和useImperativeHandle.md",
     "headings": [
@@ -232,32 +234,6 @@
         "level": 3
       }
     ]
-  },
-  {
-    "fileName": "受控组件和非受控组件",
-    "relativePath": "react/受控组件和非受控组件.md",
-    "headings": [
-      {
-        "heading": "定义和区别",
-        "level": 2
-      },
-      {
-        "heading": "非受控组件示例",
-        "level": 3
-      },
-      {
-        "heading": "受控组件示例",
-        "level": 3
-      },
-      {
-        "heading": "❗️特别注意：",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "useEffect和useLayoutEffect",
-    "relativePath": "react/useEffect和useLayoutEffect.md"
   },
   {
     "fileName": "什么是正向、反向代理",
@@ -326,6 +302,20 @@
   {
     "fileName": "命令行替换工具",
     "relativePath": "linux/命令行替换工具.md"
+  },
+  {
+    "fileName": "curry和compose",
+    "relativePath": "javascript/curry和compose.md",
+    "headings": [
+      {
+        "heading": "compose",
+        "level": 2
+      },
+      {
+        "heading": "curry",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "git clone --depth 1 什么意思",
@@ -560,6 +550,16 @@
       {
         "heading": "常见属性默认值",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "README",
+    "relativePath": "README.md",
+    "headings": [
+      {
+        "heading": "til",
+        "level": 1
       }
     ]
   },
