@@ -5,24 +5,12 @@
       "relativePath": "/"
     },
     {
-      "name": "browser",
-      "relativePath": "browser"
-    },
-    {
-      "name": "css",
-      "relativePath": "css"
-    },
-    {
       "name": "deploy",
       "relativePath": "deploy"
     },
     {
       "name": "dev-norm",
       "relativePath": "dev-norm"
-    },
-    {
-      "name": "efficiency",
-      "relativePath": "efficiency"
     },
     {
       "name": "git",
@@ -41,6 +29,10 @@
       "relativePath": "others"
     },
     {
+      "name": "css",
+      "relativePath": "css"
+    },
+    {
       "name": "react",
       "relativePath": "react"
     },
@@ -53,12 +45,24 @@
       "relativePath": "typescript"
     },
     {
+      "name": "efficiency",
+      "relativePath": "efficiency"
+    },
+    {
+      "name": "browser",
+      "relativePath": "browser"
+    },
+    {
       "name": "visualization",
       "relativePath": "visualization"
     },
     {
       "name": "assets",
       "relativePath": "others/assets"
+    },
+    {
+      "name": "daily-dev-skill",
+      "relativePath": "daily-dev-skill"
     }
   ],
   "nonMdFiles": [
