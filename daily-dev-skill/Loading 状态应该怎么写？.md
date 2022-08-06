@@ -15,4 +15,8 @@ useEffect(() => {
 }, [])
 ```
 
+再举个例子：
+
+
+
 参考 [从 loading 的 9 种写法谈 React 业务开发](https://juejin.cn/post/6844903757642203144)
