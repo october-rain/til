@@ -17,6 +17,27 @@ useEffect(() => {
 
 再举个例子：
 
+```tsx
+export const SelectNextMarkItemButton = () => {
 
+  const [loading, setLoading] = useState(false);
+
+  return (
+    <Button
+      loading={loading}
+      onClick={async () => {
+          setLoading(true)
+          // await 请求
+		  // 一些操作
+          setLoading(false)
+        }
+      }}
+      type="primary"
+    >
+      xxx
+    </Button>
+  );
+};
+```
 
 参考 [从 loading 的 9 种写法谈 React 业务开发](https://juejin.cn/post/6844903757642203144)
