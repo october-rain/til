@@ -5,6 +5,14 @@
       "relativePath": "/"
     },
     {
+      "name": "css",
+      "relativePath": "css"
+    },
+    {
+      "name": "browser",
+      "relativePath": "browser"
+    },
+    {
       "name": "deploy",
       "relativePath": "deploy"
     },
@@ -13,56 +21,48 @@
       "relativePath": "dev-norm"
     },
     {
+      "name": "efficiency",
+      "relativePath": "efficiency"
+    },
+    {
       "name": "git",
       "relativePath": "git"
-    },
-    {
-      "name": "javascript",
-      "relativePath": "javascript"
-    },
-    {
-      "name": "linux",
-      "relativePath": "linux"
     },
     {
       "name": "others",
       "relativePath": "others"
     },
     {
-      "name": "css",
-      "relativePath": "css"
-    },
-    {
-      "name": "react",
-      "relativePath": "react"
+      "name": "javascript",
+      "relativePath": "javascript"
     },
     {
       "name": "tools",
       "relativePath": "tools"
     },
     {
-      "name": "typescript",
-      "relativePath": "typescript"
-    },
-    {
-      "name": "efficiency",
-      "relativePath": "efficiency"
-    },
-    {
-      "name": "browser",
-      "relativePath": "browser"
+      "name": "linux",
+      "relativePath": "linux"
     },
     {
       "name": "visualization",
       "relativePath": "visualization"
     },
     {
-      "name": "assets",
-      "relativePath": "others/assets"
+      "name": "react",
+      "relativePath": "react"
+    },
+    {
+      "name": "typescript",
+      "relativePath": "typescript"
     },
     {
       "name": "daily-dev-skill",
       "relativePath": "daily-dev-skill"
+    },
+    {
+      "name": "assets",
+      "relativePath": "others/assets"
     }
   ],
   "nonMdFiles": [
