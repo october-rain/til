@@ -63,6 +63,10 @@
     {
       "name": "assets",
       "relativePath": "others/assets"
+    },
+    {
+      "name": "sundry",
+      "relativePath": "sundry"
     }
   ],
   "nonMdFiles": [
