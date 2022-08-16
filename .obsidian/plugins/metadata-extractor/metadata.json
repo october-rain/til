@@ -276,6 +276,16 @@
     "relativePath": "others/java各种对象的含义（PO,VO,DAO,BO,POJO）.md"
   },
   {
+    "fileName": "硬链接和软链接的区别",
+    "relativePath": "linux/硬链接和软链接的区别.md",
+    "headings": [
+      {
+        "heading": "本质区别",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "如何添加软连接",
     "relativePath": "linux/如何添加软连接.md",
     "headings": [
