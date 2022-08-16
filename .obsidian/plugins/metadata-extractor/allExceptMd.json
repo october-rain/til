@@ -5,12 +5,16 @@
       "relativePath": "/"
     },
     {
+      "name": "browser",
+      "relativePath": "browser"
+    },
+    {
       "name": "css",
       "relativePath": "css"
     },
     {
-      "name": "browser",
-      "relativePath": "browser"
+      "name": "daily-dev-skill",
+      "relativePath": "daily-dev-skill"
     },
     {
       "name": "deploy",
@@ -29,44 +33,44 @@
       "relativePath": "git"
     },
     {
-      "name": "others",
-      "relativePath": "others"
-    },
-    {
       "name": "javascript",
       "relativePath": "javascript"
-    },
-    {
-      "name": "tools",
-      "relativePath": "tools"
     },
     {
       "name": "linux",
       "relativePath": "linux"
     },
     {
-      "name": "visualization",
-      "relativePath": "visualization"
+      "name": "others",
+      "relativePath": "others"
     },
     {
       "name": "react",
       "relativePath": "react"
     },
     {
+      "name": "sundry",
+      "relativePath": "sundry"
+    },
+    {
+      "name": "tools",
+      "relativePath": "tools"
+    },
+    {
       "name": "typescript",
       "relativePath": "typescript"
     },
     {
-      "name": "daily-dev-skill",
-      "relativePath": "daily-dev-skill"
+      "name": "visualization",
+      "relativePath": "visualization"
     },
     {
       "name": "assets",
       "relativePath": "others/assets"
     },
     {
-      "name": "sundry",
-      "relativePath": "sundry"
+      "name": "assets",
+      "relativePath": "tools/assets"
     }
   ],
   "nonMdFiles": [
