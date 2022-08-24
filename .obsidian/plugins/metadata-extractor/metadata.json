@@ -238,6 +238,10 @@
     ]
   },
   {
+    "fileName": "rerender的原因",
+    "relativePath": "react/rerender的原因.md"
+  },
+  {
     "fileName": "useEffect 中使用 async",
     "relativePath": "react/useEffect 中使用 async.md"
   },
