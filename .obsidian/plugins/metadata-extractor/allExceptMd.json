@@ -5,44 +5,44 @@
       "relativePath": "/"
     },
     {
-      "name": "browser",
-      "relativePath": "browser"
+      "name": "daily-dev-skill",
+      "relativePath": "daily-dev-skill"
     },
     {
       "name": "css",
       "relativePath": "css"
     },
     {
-      "name": "daily-dev-skill",
-      "relativePath": "daily-dev-skill"
-    },
-    {
-      "name": "deploy",
-      "relativePath": "deploy"
-    },
-    {
-      "name": "dev-norm",
-      "relativePath": "dev-norm"
-    },
-    {
       "name": "efficiency",
       "relativePath": "efficiency"
+    },
+    {
+      "name": "browser",
+      "relativePath": "browser"
     },
     {
       "name": "git",
       "relativePath": "git"
     },
     {
-      "name": "javascript",
-      "relativePath": "javascript"
+      "name": "dev-norm",
+      "relativePath": "dev-norm"
     },
     {
-      "name": "linux",
-      "relativePath": "linux"
+      "name": "engineering",
+      "relativePath": "engineering"
     },
     {
       "name": "others",
       "relativePath": "others"
+    },
+    {
+      "name": "deploy",
+      "relativePath": "deploy"
+    },
+    {
+      "name": "linux",
+      "relativePath": "linux"
     },
     {
       "name": "react",
@@ -53,12 +53,16 @@
       "relativePath": "sundry"
     },
     {
-      "name": "tools",
-      "relativePath": "tools"
+      "name": "javascript",
+      "relativePath": "javascript"
     },
     {
       "name": "typescript",
       "relativePath": "typescript"
+    },
+    {
+      "name": "tools",
+      "relativePath": "tools"
     },
     {
       "name": "visualization",

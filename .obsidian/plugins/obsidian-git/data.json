@@ -2,7 +2,7 @@
   "commitMessage": ":memo: til backup: {{date}}",
   "autoCommitMessage": ":memo: til backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 30,
   "autoPushInterval": 30,
   "autoPullInterval": 30,
   "autoPullOnBoot": true,
