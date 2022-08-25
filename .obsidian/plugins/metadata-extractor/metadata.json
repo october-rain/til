@@ -14,10 +14,6 @@
     ]
   },
   {
-    "fileName": "fig",
-    "relativePath": "tools/fig.md"
-  },
-  {
     "fileName": "索引类型",
     "relativePath": "typescript/索引类型.md",
     "headings": [
@@ -44,6 +40,42 @@
     ]
   },
   {
+    "fileName": "可选链",
+    "relativePath": "typescript/可选链.md",
+    "headings": [
+      {
+        "heading": "可选链在 typescript 中的使用",
+        "level": 1
+      },
+      {
+        "heading": "example1",
+        "level": 2
+      },
+      {
+        "heading": "example2",
+        "level": 2
+      },
+      {
+        "heading": "总结",
+        "level": 2
+      },
+      {
+        "heading": "参考",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "ts两种层级比较方式",
+    "relativePath": "typescript/ts两种层级比较方式.md",
+    "headings": [
+      {
+        "heading": "ts 两种层级比较方式————类型信息的层面、结构化类型系统层面",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "ts 范型",
     "relativePath": "typescript/ts 范型.md",
     "headings": [
@@ -66,6 +98,46 @@
       {
         "heading": "类中的泛型",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "ts 如何挂载新值？",
+    "relativePath": "typescript/ts 如何挂载新值？.md",
+    "headings": [
+      {
+        "heading": "如果在函数上挂载一个值不报错？",
+        "level": 2
+      },
+      {
+        "heading": "如何在函数组件上挂载一个值不报错？",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "infer",
+    "relativePath": "typescript/infer.md",
+    "headings": [
+      {
+        "heading": "ts 中 infer 的使用技巧",
+        "level": 1
+      },
+      {
+        "heading": "含义",
+        "level": 2
+      },
+      {
+        "heading": "examples",
+        "level": 2
+      },
+      {
+        "heading": "推断函数的返回值",
+        "level": 3
+      },
+      {
+        "heading": "Swap",
+        "level": 3
       }
     ]
   },
@@ -104,116 +176,42 @@
     ]
   },
   {
-    "fileName": "可选链",
-    "relativePath": "typescript/可选链.md",
-    "headings": [
-      {
-        "heading": "可选链在 typescript 中的使用",
-        "level": 1
-      },
-      {
-        "heading": "example1",
-        "level": 2
-      },
-      {
-        "heading": "example2",
-        "level": 2
-      },
-      {
-        "heading": "总结",
-        "level": 2
-      },
-      {
-        "heading": "参考",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "ts 如何挂载新值？",
-    "relativePath": "typescript/ts 如何挂载新值？.md",
-    "headings": [
-      {
-        "heading": "如果在函数上挂载一个值不报错？",
-        "level": 2
-      },
-      {
-        "heading": "如何在函数组件上挂载一个值不报错？",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "ts两种层级比较方式",
-    "relativePath": "typescript/ts两种层级比较方式.md",
-    "headings": [
-      {
-        "heading": "ts 两种层级比较方式————类型信息的层面、结构化类型系统层面",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "infer",
-    "relativePath": "typescript/infer.md",
-    "headings": [
-      {
-        "heading": "ts 中 infer 的使用技巧",
-        "level": 1
-      },
-      {
-        "heading": "含义",
-        "level": 2
-      },
-      {
-        "heading": "examples",
-        "level": 2
-      },
-      {
-        "heading": "推断函数的返回值",
-        "level": 3
-      },
-      {
-        "heading": "Swap",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "如何使用js监听键盘事件",
-    "relativePath": "javascript/如何使用js监听键盘事件.md",
-    "headings": [
-      {
-        "heading": "如何使用js监听键盘事件",
-        "level": 1
-      },
-      {
-        "heading": "KeyboardEvent 键盘事件",
-        "level": 2
-      },
-      {
-        "heading": "常见的一些 key",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "curry和compose",
-    "relativePath": "javascript/curry和compose.md",
-    "headings": [
-      {
-        "heading": "compose",
-        "level": 2
-      },
-      {
-        "heading": "curry",
-        "level": 2
-      }
-    ]
+    "fileName": "fig",
+    "relativePath": "tools/fig.md"
   },
   {
     "fileName": "浏览器空白页面",
     "relativePath": "sundry/浏览器空白页面.md"
+  },
+  {
+    "fileName": "受控组件和非受控组件",
+    "relativePath": "react/受控组件和非受控组件.md",
+    "headings": [
+      {
+        "heading": "定义和区别",
+        "level": 2
+      },
+      {
+        "heading": "非受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "受控组件示例",
+        "level": 3
+      },
+      {
+        "heading": "❗️特别注意：",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "useEffect和useLayoutEffect",
+    "relativePath": "react/useEffect和useLayoutEffect.md"
+  },
+  {
+    "fileName": "useEffect 中使用 async",
+    "relativePath": "react/useEffect 中使用 async.md"
   },
   {
     "fileName": "rerender的原因",
@@ -250,34 +248,36 @@
     ]
   },
   {
-    "fileName": "useEffect和useLayoutEffect",
-    "relativePath": "react/useEffect和useLayoutEffect.md"
-  },
-  {
-    "fileName": "受控组件和非受控组件",
-    "relativePath": "react/受控组件和非受控组件.md",
+    "fileName": "什么是正向、反向代理",
+    "relativePath": "others/什么是正向、反向代理.md",
     "headings": [
       {
-        "heading": "定义和区别",
+        "heading": "正向代理：",
         "level": 2
       },
       {
-        "heading": "非受控组件示例",
-        "level": 3
-      },
-      {
-        "heading": "受控组件示例",
-        "level": 3
-      },
-      {
-        "heading": "❗️特别注意：",
+        "heading": "反向代理",
         "level": 2
       }
     ]
   },
   {
-    "fileName": "useEffect 中使用 async",
-    "relativePath": "react/useEffect 中使用 async.md"
+    "fileName": "什么是Nerd fonts",
+    "relativePath": "others/什么是Nerd fonts.md"
+  },
+  {
+    "fileName": "schema",
+    "relativePath": "others/schema.md",
+    "headings": [
+      {
+        "heading": "什么是Schema",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "java各种对象的含义（PO,VO,DAO,BO,POJO）",
+    "relativePath": "others/java各种对象的含义（PO,VO,DAO,BO,POJO）.md"
   },
   {
     "fileName": "硬链接和软链接的区别",
@@ -285,6 +285,24 @@
     "headings": [
       {
         "heading": "本质区别",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "文件权限",
+    "relativePath": "linux/文件权限.md",
+    "headings": [
+      {
+        "heading": "文件权限",
+        "level": 1
+      },
+      {
+        "heading": "含义详解",
+        "level": 2
+      },
+      {
+        "heading": "参考",
         "level": 2
       }
     ]
@@ -312,76 +330,58 @@
     "relativePath": "linux/命令行替换工具.md"
   },
   {
-    "fileName": "文件权限",
-    "relativePath": "linux/文件权限.md",
+    "fileName": "如何使用js监听键盘事件",
+    "relativePath": "javascript/如何使用js监听键盘事件.md",
     "headings": [
       {
-        "heading": "文件权限",
+        "heading": "如何使用js监听键盘事件",
         "level": 1
       },
       {
-        "heading": "含义详解",
+        "heading": "KeyboardEvent 键盘事件",
         "level": 2
       },
       {
-        "heading": "参考",
+        "heading": "常见的一些 key",
         "level": 2
       }
     ]
   },
   {
-    "fileName": "静态站点部署方式介绍",
-    "relativePath": "deploy/静态站点部署方式介绍.md",
+    "fileName": "curry和compose",
+    "relativePath": "javascript/curry和compose.md",
     "headings": [
       {
-        "heading": "vercel、github 类部署",
+        "heading": "compose",
         "level": 2
       },
       {
-        "heading": "oss 部署",
-        "level": 2
-      },
-      {
-        "heading": "个人服务器部署",
+        "heading": "curry",
         "level": 2
       }
     ]
   },
   {
-    "fileName": "什么是Nerd fonts",
-    "relativePath": "others/什么是Nerd fonts.md"
-  },
-  {
-    "fileName": "什么是正向、反向代理",
-    "relativePath": "others/什么是正向、反向代理.md",
-    "headings": [
-      {
-        "heading": "正向代理：",
-        "level": 2
-      },
-      {
-        "heading": "反向代理",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "schema",
-    "relativePath": "others/schema.md",
-    "headings": [
-      {
-        "heading": "什么是Schema",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "java各种对象的含义（PO,VO,DAO,BO,POJO）",
-    "relativePath": "others/java各种对象的含义（PO,VO,DAO,BO,POJO）.md"
+    "fileName": "git clone --depth 1 什么意思",
+    "relativePath": "git/git clone --depth 1 什么意思.md"
   },
   {
     "fileName": "pnpm 中的软链和硬链",
     "relativePath": "engineering/pnpm 中的软链和硬链.md"
+  },
+  {
+    "fileName": "构建知识体系",
+    "relativePath": "efficiency/构建知识体系.md",
+    "headings": [
+      {
+        "heading": "构建知识体系",
+        "level": 1
+      },
+      {
+        "heading": "Obsidian + Git 同步知识体系",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "通用协作规范",
@@ -566,8 +566,44 @@
     ]
   },
   {
-    "fileName": "git clone --depth 1 什么意思",
-    "relativePath": "git/git clone --depth 1 什么意思.md"
+    "fileName": "静态站点部署方式介绍",
+    "relativePath": "deploy/静态站点部署方式介绍.md",
+    "headings": [
+      {
+        "heading": "vercel、github 类部署",
+        "level": 2
+      },
+      {
+        "heading": "oss 部署",
+        "level": 2
+      },
+      {
+        "heading": "个人服务器部署",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Loading 状态应该怎么写？",
+    "relativePath": "daily-dev-skill/Loading 状态应该怎么写？.md"
+  },
+  {
+    "fileName": "一些属性的默认值",
+    "relativePath": "css/一些属性的默认值.md",
+    "headings": [
+      {
+        "heading": "一些属性的默认值",
+        "level": 1
+      },
+      {
+        "heading": "使用原因",
+        "level": 2
+      },
+      {
+        "heading": "常见属性默认值",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "window.open踩坑",
@@ -590,42 +626,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "构建知识体系",
-    "relativePath": "efficiency/构建知识体系.md",
-    "headings": [
-      {
-        "heading": "构建知识体系",
-        "level": 1
-      },
-      {
-        "heading": "Obsidian + Git 同步知识体系",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "一些属性的默认值",
-    "relativePath": "css/一些属性的默认值.md",
-    "headings": [
-      {
-        "heading": "一些属性的默认值",
-        "level": 1
-      },
-      {
-        "heading": "使用原因",
-        "level": 2
-      },
-      {
-        "heading": "常见属性默认值",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Loading 状态应该怎么写？",
-    "relativePath": "daily-dev-skill/Loading 状态应该怎么写？.md"
   },
   {
     "fileName": "README",
