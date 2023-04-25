@@ -321,3 +321,60 @@ css 预处理器和 postcss 两者主要区别在于预处理器通常定义了�
 - 如果设置为 2，那么从`css-loader`的第二个 loader 开始作用，流程与设置为 1 时一样，不赘述。
 
 > 💊💊💊：但请注意，以上情况只针对于 css 文件，如果项目中使用了样式预处理器 less sass 等，则完全不用加这个参数，因为`less-loader`或者`sass-loader`解析后生成的 css 代码内已经不存在`@import`语法，所有的`@import`语法全都被 loader 解析成对应的 css 模块代码了，等到 css-loader 处理样式代码的时候，没有`@import`，就完全不需要这个参数了。
+
+## 搭建 react 环境
+
+### 踩过的坑
+
+#### 控制台报错 Uncaught ReferenceError: process is not defined
+
+[Webpack: Bundle.js - Uncaught ReferenceError: process is not defined](https://stackoverflow.com/questions/41359504/webpack-bundle-js-uncaught-referenceerror-process-is-not-defined) 这个是真的有点坑，好像是 webpack5 新增的问题，解决办法如下：
+
+```js
+// webpack needs to be explicitly required
+const webpack = require("webpack");
+// import webpack from 'webpack' // (if you're using ESM)
+
+module.exports = {
+  /* ... rest of the config here ... */
+
+  plugins: [
+    // fix "process is not defined" error:
+    new webpack.ProvidePlugin({
+      process: "process/browser",
+    }),
+  ],
+};
+```
+
+#### You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file.
+
+如果要配置 react 的 开发环境，ts / js 文件中也可能会有 react 的 jsx 代码，比如：
+
+```js
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./index.jsx";
+
+const root = ReactDOM.createRoot(document.getElementById("app"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
+这种情况下，如果只匹配 jsx（如下），就会报该错误
+
+```js
+module: {
+  rules: [
+    {
+      test: /(\.jsx)$/, // test: /(\.jsx|js)$/,
+      loader: "babel-loader",
+      exclude: /node_modules/,
+    },
+  ],
+},
+```
